@@ -47,7 +47,8 @@
     "supertest": "^4.0.2"
   },
   "scripts": {
-    "build": "netlify-lambda build express",
+    "build": "netlify-lambda build server",
+    "dev": "netlify-lambda serve server --config ./webpack.config.js",
     "start": "node server-local.js",
     "lint": "eslint .",
     "test": "mocha ./test/test*.js --reporter spec",
