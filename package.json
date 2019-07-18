@@ -35,8 +35,7 @@
     "netlify-lambda": "^1.5.0",
     "parse5": "^5.1.0",
     "parse5-html-rewriting-stream": "^5.1.0",
-    "proxy-from-env": "0.0.1",
-    "serverless-http": "^2.0.2"
+    "proxy-from-env": "0.0.1"
   },
   "devDependencies": {
     "eslint": "^6.0.1",

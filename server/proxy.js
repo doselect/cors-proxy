@@ -1,4 +1,3 @@
-var serverless = require('serverless-http');
 
 // Grab the blacklist from the command-line so that we can update the blacklist without deploying
 // again. CORS Anywhere is open by design, and this blacklist is not used, except for countering
@@ -38,4 +37,3 @@ var app = cors_proxy.createServer({
   },
 });
 module.exports = app;
-module.exports.handler = serverless(app);
