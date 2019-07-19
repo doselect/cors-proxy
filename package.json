@@ -33,9 +33,6 @@
     "harmon": "^1.4.3",
     "helmet": "^3.19.0",
     "http-proxy": "1.11.1",
-    "netlify-lambda": "^1.5.0",
-    "parse5": "^5.1.0",
-    "parse5-html-rewriting-stream": "^5.1.0",
     "proxy-from-env": "0.0.1"
   },
   "devDependencies": {
@@ -47,7 +44,6 @@
     "supertest": "^4.0.2"
   },
   "scripts": {
-    "build": "netlify-lambda build server",
     "start": "node server-local.js",
     "lint": "eslint .",
     "test": "mocha ./test/test*.js --reporter spec",
